@@ -1,0 +1,24 @@
+Skeleton Asset: https://www.assetstore.unity3d.com/en/#!/content/30659
+
+Sand Texture: https://jb1992.deviantart.com/art/Desert-sand-texture-323267113
+
+Low Poly Free Pack: https://www.assetstore.unity3d.com/en/#!/content/63714
+
+fire: https://www.textures.com/download/flames0045/64591?q=fire
+
+
+
+
+Above and Beyond Features:
+
+- I put in some scripts that allow the player to emit flames and damage all of the skeletons
+
+- The flamethrower triggers an onFire script that sets the skeletons on fire. After a period of time, the fire will go out. While skeletons are on fire, they are being damaged.
+
+- After the skeletons reach 0 health, they are destroyed.
+
+- I spawn crates, barrels, trees, and rocks randomly across the terrain.
+	Crates and barrels have rigid bodies.
+
+- I had trouble with the flame thrower. The flamethrower wouldn't work unless the particle system was local, which means it is more like a beam of fire.
+	You can't create a curving flame by moving the camera like I originally could.
